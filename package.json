@@ -19,7 +19,9 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "test": "mocha"
+    "test": "mocha",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "author": "Hengkiardo <hengki.sihombing@gmail.com> (https://github.com/aredo)",
   "repository": {
@@ -70,7 +72,8 @@
     "utility": "^1.2.1",
     "validator": "3.27.0",
     "view-helpers": "^0.1.5",
-    "winston": "^0.8.3"
+    "winston": "^0.8.3",
+    "snyk": "^1.189.0"
   },
   "devDependencies": {
     "chai": "^1.10.0",
@@ -92,5 +95,6 @@
     "mocha": "^2.1.0",
     "supertest": "^0.15.0",
     "time-grunt": "^1.0.0"
-  }
+  },
+  "snyk": true
 }
