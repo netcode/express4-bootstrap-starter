@@ -70,7 +70,8 @@
     "utility": "^1.2.1",
     "validator": "3.27.0",
     "view-helpers": "^0.1.5",
-    "winston": "^0.8.3"
+    "winston": "^0.8.3",
+    "mime":"1.2.11"
   },
   "devDependencies": {
     "chai": "^1.10.0",
