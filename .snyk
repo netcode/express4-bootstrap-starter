@@ -1,0 +1,32 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hoek:20180212':
+    - phantom-render-stream > phantomjs > request > hawk > hoek:
+        patched: '2020-03-29T13:14:50.176Z'
+    - phantom-render-stream > phantomjs > request > hawk > boom > hoek:
+        patched: '2020-03-29T13:14:50.176Z'
+    - phantom-render-stream > phantomjs > request > hawk > sntp > hoek:
+        patched: '2020-03-29T13:14:50.176Z'
+    - phantom-render-stream > phantomjs > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-03-29T13:14:50.176Z'
+  'npm:lodash:20180130':
+    - email-templates > juice > web-resource-inliner > lodash:
+        patched: '2020-03-29T13:14:50.176Z'
+  'npm:mime:20170907':
+    - multipart > mime:
+        patched: '2020-03-29T13:14:50.176Z'
+  'npm:request:20160119':
+    - phantom-render-stream > phantomjs > request:
+        patched: '2020-03-29T13:14:50.176Z'
+  'npm:tough-cookie:20170905':
+    - phantom-render-stream > phantomjs > request > tough-cookie:
+        patched: '2020-03-29T13:14:50.176Z'
+  'npm:tunnel-agent:20170305':
+    - phantom-render-stream > phantomjs > request > tunnel-agent:
+        patched: '2020-03-29T13:14:50.176Z'
+  'npm:uglify-js:20151024':
+    - jade > transformers > uglify-js:
+        patched: '2020-03-29T13:14:50.176Z'
