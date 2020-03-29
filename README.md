@@ -1,6 +1,6 @@
 ![ExpressJS 4 Starter](https://github.com/aredo/express4-bootstrap-starter/raw/master/public/apple-touch-icon-144-precomposed.png)
 
-ExpressJS 4 Starter :)
+ExpressJS 4 Starter :) :)
 ==========================
 [![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/aredo/express4-bootstrap-starter?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
